@@ -1,0 +1,29 @@
+
+.profile-card {
+  
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
+  
+  .profile-avatar {
+    border-radius: 20px;
+    height: 250px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .profile-name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .profile-bio {
+    color: #666;
+    font-size: 1em;
+  }

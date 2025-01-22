@@ -1,0 +1,28 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #666;
+  }
+  
+  .crewList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .crewItem {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .crewItem:last-child {
+    border-bottom: none;
+  }

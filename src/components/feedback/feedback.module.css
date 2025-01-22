@@ -1,0 +1,41 @@
+.feedbackContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border: 2px solid #4CAF50; /* Зеленая рамка */
+  border-radius: 12px;
+  background: linear-gradient(135deg, #e3ffe7, #d9e7ff); /* Градиентный фон */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+  max-width: 350px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.feedbackContainer span {
+  font-size: 1.2em; /* Увеличиваем шрифт текста */
+  font-weight: bold;
+  color: #333; /* Тёмный текст */
+}
+
+.feedbackContainer button {
+  background-color: #4CAF50; /* Зеленый фон кнопки */
+  color: white; /* Белый текст */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.3s; /* Анимация нажатия и изменения цвета */
+}
+
+.feedbackContainer button:hover {
+  background-color: #45a049; /* Более тёмный зелёный при наведении */
+  transform: scale(1.05); /* Лёгкое увеличение */
+}
+
+.feedbackContainer button:active {
+  transform: scale(0.95); /* Лёгкое уменьшение при клике */
+  background-color: #388e3c; /* Ещё темнее зелёный при клике */
+}

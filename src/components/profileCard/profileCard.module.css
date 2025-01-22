@@ -1,0 +1,25 @@
+.div_container {
+    text-align: center; /* Выравнивание по центру */
+    padding: 20px;
+    border: 2px solid #ccc; /* Более заметная рамка */
+    border-radius: 12px; /* Скругленные углы */
+    max-width: 350px; /* Увеличенная ширина */
+    margin: 30px auto; /* Центрирование блока */
+    font-family: Arial, sans-serif; /* Простой шрифт */
+    background-color: #f9f9f9; /* Лёгкий фон */
+  }
+  
+  .div_container img {
+    width: 250px; /* Увеличенный размер аватара */
+    height: 200px;
+    border-radius: 5%; /* Круглый аватар */
+    margin-bottom: 15px; /* Увеличенный отступ снизу */
+    border: 3px solid #4CAF50; /* Рамка вокруг аватара */
+  }
+  
+  .div_container p {
+    margin: 10px 0; /* Увеличенные отступы между текстом */
+    font-size: 18px; /* Увеличенный размер шрифта */
+    font-weight: bold; /* Жирный текст */
+    color: #333; /* Тёмный цвет текста */
+  }

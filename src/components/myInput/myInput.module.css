@@ -1,0 +1,26 @@
+.input_container {
+    display: flex;
+    flex-direction: row;  /* Элементы будут располагаться в строку */
+    align-items: center;  /* Выравнивание элементов по центру по вертикали */
+    gap: 10px;  /* Отступ между label и input */
+
+  }
+  label {
+    width: 120px; /* Фиксированная ширина для лейблов */
+    text-align: right; /* Текст выравнивается по правому краю */
+    font-size: 16px; /* Размер текста */
+  }
+  .input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
