@@ -2,7 +2,7 @@ import style from "./SpaceMission.module.css";
 export default function SpaceMission() {
   let shipName: string = "Space X";
   let crewCount: number = 3;
-  let missionStart: boolean = true;
+  // let missionStart: boolean = true;
   let crewNames: string[] = ["Donalt Trump", "Melania Tramp", "Barron Tramp"];
   let captain: readonly [string, number] = ["Elon Musk", 50];
 

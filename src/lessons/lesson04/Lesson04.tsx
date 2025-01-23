@@ -47,7 +47,7 @@ function Lesson04() {
   };
 
   const [color, setColor] = useState("yellow");
-const handleColor = (element) => {
+const handleColor = (element:string) => {
     setColor(element);
     // console.log(color);
 }

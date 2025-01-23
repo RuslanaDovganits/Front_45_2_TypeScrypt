@@ -1,5 +1,4 @@
 import Fellowship from "./Fellowship";
-import styles from "./fellowship.module.css";
 
 interface Hero {
   name: string;
