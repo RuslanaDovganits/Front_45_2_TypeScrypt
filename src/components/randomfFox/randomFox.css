@@ -1,0 +1,15 @@
+ /* жестка рамка для картинки, чтобы обрезать ее по нужному формату */
+ .fox-wrapper {
+    margin: 10px auto 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  /* саму картинку растягиваем по размеру рамки на 100% */
+  .fox-wrapper > img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }

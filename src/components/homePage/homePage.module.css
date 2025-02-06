@@ -1,0 +1,38 @@
+.bigContainer {
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.linkActive {
+    text-decoration: underline;
+    gap: 16px;
+}
+
+.lessonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.lessonContainer a {
+    color: #A5D6A7; /* Светло-зеленый цвет текста для обычного состояния */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Цвет при наведении (hover) */
+.lessonContainer a:hover {
+    color: #66BB6A; /* Средне-зеленый цвет при наведении */
+    transform: translateY(-3px); /* Немного поднимется наверх */
+    font-weight: 600;
+}
+
+/* Для активной ссылки */
+.lessonContainer a.active {
+    color: #388E3C; /* Темно-зеленый цвет для активных ссылок */
+}

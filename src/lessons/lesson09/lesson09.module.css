@@ -1,0 +1,16 @@
+.heading {
+  font-size: 35px;
+  color: lightseagreen;
+}
+.desc {
+  font-style: italic;
+}
+textGreen{
+    color: rgba(172, 255, 47, 0.88);
+}
+.list {
+    list-style: none;
+}
+.list > li::before {
+    content: '⚡️';
+}

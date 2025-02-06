@@ -1,10 +1,17 @@
+import { useEffect } from "react";
 import { fellowship } from "./fellowship";
 import "./lesson05.css";
 
 export default function Lesson05() {
+
+  useEffect(() => {
+console.log('lesson mount!')
+  }, [])
   fellowship.map((character) => {
     console.log(character.name);
   });
+
+  
 
   return (
     <div>
