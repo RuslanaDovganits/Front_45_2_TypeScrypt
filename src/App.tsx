@@ -23,6 +23,7 @@ import Homework03 from "./homeworks/homework03/Homework03";
 import Homework04 from "./homeworks/homework04/Homework04";
 import Homework05 from "./homeworks/homework05/Homework05";
 import Homework06 from "./homeworks/homework06/Homework06";
+import Lesson11 from "./lessons/lesson11/Lesson11";
 
 function App() {
   return (
@@ -46,6 +47,8 @@ function App() {
           <Route path="lesson07" element={<Lesson07 />} />
           <Route path="lesson08" element={<Lesson08 />} />
           <Route path="lesson09" element={<Lesson09 />} />
+          <Route path="lesson11" element={<Lesson11 />} />
+
 
 
           <Route path="homework01" element={<Homework01 />} />

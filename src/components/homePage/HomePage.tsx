@@ -16,6 +16,8 @@ export default function HomePage() {
       <NavLink to={"lesson07"}>lesson 07</NavLink>
       <NavLink to={"lesson08"}>lesson 08</NavLink>
       <NavLink to={"lesson09"}>lesson 09</NavLink>
+      <NavLink to={"lesson11"}>lesson 11</NavLink>
+
 
       </div>
       <div className={styles.lessonContainer}>
