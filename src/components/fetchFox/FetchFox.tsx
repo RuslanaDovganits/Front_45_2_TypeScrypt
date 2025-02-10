@@ -15,7 +15,7 @@ export default function FetchFox():JSX.Element {
   const getFox = async (): Promise<void> => {
     setIsLoading(true);
     const res = await fetch("https://randomfox.ca/floof/");
-    const data:I = await res.json();
+    const data:IFoxData = await res.json();
     setImgFox(data.image);
     setIsLoading(false);
   };
@@ -26,9 +26,7 @@ export default function FetchFox():JSX.Element {
 
   return (
     <div>
-      {isLoading ? (
-        <Loader />
-      ) : (
+      {isLoading ? (<Loader />) : (
         <>
           <h2>Fetch Fox 🦊 </h2>
           <div className="fox-wrapper">
